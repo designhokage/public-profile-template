@@ -1,0 +1,126 @@
+body {
+  margin-left: 67px;
+  margin-right: 67px;
+}
+
+.container {
+  font-family: Graphik;
+  margin-left: 67px;
+  margin-right: 67px;
+  display: grid;
+  height: 40vh;
+  grid-column-gap: 30px;
+  grid-row-gap: 56px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "rating1 rating2 rating3";
+}
+
+.rating1 {
+  text-align: center;
+  background-color: #ebebeb;
+  border-radius: 16px;
+  padding: 24px;
+}
+.rating2 {
+  text-align: center;
+  background-color: #ebebeb;
+  border-radius: 16px;
+  padding: 24px;
+}
+.rating3 {
+  text-align: center;
+  background-color: #ebebeb;
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.header {
+  display: grid;
+  margin-top: 120px;
+  height: 70vh;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "header header header";
+  background-color: wheat;
+  background-image: url(images/screenshot\ 1.png);
+  background-size: 1280px;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.headline {
+  position: absolute;
+  width: 412px;
+  height: 56px;
+  left: 800px;
+  top: 260px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: #ffffff;
+}
+
+.ratings {
+  position: absolute;
+  width: 384px;
+  height: 28px;
+  left: 800px;
+  top: 350px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.intro {
+  position: absolute;
+  width: 572px;
+  height: 57px;
+  left: 800px;
+  top: 420px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+button {
+  position: absolute;
+  width: 120px;
+  height: 40px;
+  left: 800px;
+  top: 520px;
+  background: #3f7cac;
+  border-radius: 24px;
+}
+
+.buttonbackground {
+  width: 120px;
+  height: 40px;
+  background: #3f7cac;
+  border-radius: 24px;
+}
+
+.textbutton {
+  font-size: 13px;
+  line-height: 14px;
+  color: #ffffff;
+  text-align: justify;
+  padding: 24px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}

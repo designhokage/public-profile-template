@@ -1,0 +1,24 @@
+.navigationbar {
+  display: flex;
+  background-color: #ffffff;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  height: 88px;
+  width: 92%;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+}
+
+.main-menu-item {
+  color: #222223;
+  text-decoration: none;
+  padding: 16px;
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  align-items: center;
+}
