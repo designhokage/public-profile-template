@@ -3,6 +3,30 @@ body {
   margin-right: 67px;
 }
 
+.about {
+  width: 90vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "about-image about-text";
+  height: fit-content;
+  margin-top: 40px;
+  margin-left: 67px;
+  margin-right: 67px;
+  grid-row-gap: 40px;
+}
+
+.strategy {
+  width: 90vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "strategy-text strategy-image";
+  height: fit-content;
+  margin-top: 120px;
+  margin-left: 67px;
+  margin-right: 67px;
+  grid-row-gap: 40px;
+}
+
 .container {
   font-family: Graphik;
   margin-left: 67px;
@@ -107,13 +131,16 @@ button {
   height: 40px;
   background: #3f7cac;
   border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .textbutton {
   font-size: 13px;
   line-height: 14px;
   color: #ffffff;
-  text-align: justify;
+  text-align: center;
   padding: 24px;
 }
 
@@ -123,4 +150,12 @@ button {
 
 .right {
   float: right;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+  margin-bottom: 120px;
 }
